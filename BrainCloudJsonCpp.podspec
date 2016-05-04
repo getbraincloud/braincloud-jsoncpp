@@ -1,8 +1,7 @@
 #
-#  BrainCloudSDK.podspec
-#  BrainCloudSDK C++
+#  BrainCloudJsonCpp.podspec
+#  BrainCloudJsonCpp
 #
-#  Created by Benoit Sarrazin on Feb 16, 2016.
 #  Copyright (c) 2016 BitHeads Inc. All rights reserved.
 #
 
@@ -27,7 +26,6 @@ Pod::Spec.new do |s|
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.authors                = {"Preston Jennings" => "prestonj@bitheads.com"}
-#  s.social_media_url       = "https://twitter.com/braincloudbaas"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -35,19 +33,11 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-#  s.header_mappings_dir    = 'Shared'
-#  s.public_header_files    = 'Shared/**/*.{h,hh}'
-  #s.source_files           = 'Shared/**/*.{c,cpp,h,hh,mm}'
-  #s.header_mappings_dir     = "include"
   s.header_dir              = "json"
-  #s.public_header_files     = 'src/json/*.h'
   s.source_files            = 'src/**/*.{cpp,h}'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.libraries               = 'c++'
-  #, 'z'
-  #s.osx.framework           = 'LDAP'
-  #s.dependency              'jsoncpp', '~> 1.6.5'
 
 end
