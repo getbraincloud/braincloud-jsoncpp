@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.name     = "BrainCloudJsonCpp"
   s.version  = "1.0.0"
-  s.summary  = "The open source JsonCpp library. Keeps the project header include folder structure unlike the main cocoapods jsoncpp project."
+  s.summary  = "The open source JsonCpp library version 1.0.0. Keeps the project header include folder structure unlike the main cocoapods jsoncpp project."
   s.homepage = "https://github.com/open-source-parsers/jsoncpp"
 
   s.ios.deployment_target  = "6.0"
@@ -34,10 +34,10 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.header_dir              = "json"
-  s.source_files            = 'src/**/*.{cpp,h}'
+  s.source_files            = "src/**/*.{cpp,h}"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.libraries               = 'c++'
+  s.libraries               = "c++"
 
 end
