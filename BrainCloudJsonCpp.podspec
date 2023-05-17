@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name     = "BrainCloudJsonCpp"
-  s.version  = "1.1.0"
-  s.summary  = "The open source JsonCpp library version 1.1.0. Keeps the project header include folder structure unlike the main cocoapods jsoncpp project."
+  s.version  = "1.9.5"
+  s.summary  = "The open source JsonCpp library. Keeps the project header include folder structure and is updated for deployment targets."
   s.homepage = "https://github.com/open-source-parsers/jsoncpp"
 
   s.ios.deployment_target  = "11.0"
