@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.header_dir              = "json"
-  s.source_files            = "src/**/*.{cpp,h}"
+  s.source_files            = "**/*.{cpp,h}"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
