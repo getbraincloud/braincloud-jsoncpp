@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.license                = {:type => "Apache License, Version 2.0", :file => "LICENSE"}
+  s.license                = {:type => "The MIT License", :file => "LICENSE"}
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.authors                = {"Preston Jennings" => "prestonj@bitheads.com"}
+  s.authors                = {"The JsonCpp Authors" => "info@bitheads.com"}
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
