@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.authors                = {"The JsonCpp Authors" => "info@bitheads.com"}
+  s.authors                = {"brainCloud Team" => "support@getbraincloud.com"}
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -33,11 +33,11 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.public_header_files              = "**/*.{h}"
+  s.header_dir              = "json"
   s.source_files            = "**/*.{cpp,h}"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.libraries               = 'c++'
-  s.osx.framework           = 'LDAP'
+
 end
