@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.libraries               = "c++"
+  s.libraries               = 'c++'
 
 end
