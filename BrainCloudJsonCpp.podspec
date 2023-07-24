@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name     = "BrainCloudJsonCpp"
-  s.version  = "1.1.3"
+  s.version  = "1.1.4"
   s.summary  = "The open source JsonCpp library. Keeps the project header include folder structure and is updated for deployment targets."
-  s.homepage = "https://github.com/open-source-parsers/jsoncpp"
-
+  s.homepage = "https://github.com/getbraincloud/braincloud-jsoncpp"
+  
   s.ios.deployment_target  = "11.0"
   s.osx.deployment_target  = "10.13"
   s.tvos.deployment_target = "11.0"
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.authors                = {"The JsonCpp Authors" => "info@bitheads.com"}
+  s.authors                = {"brainCloud Team" => "support@getbraincloud.com"}
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
