@@ -110,6 +110,10 @@ license you like.
  *
  * It is an internal header that must not be exposed.
  */
+#if defined(__clang__)
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunneeded-internal-declaration"
+#endif
 
 namespace Json {
 static inline char getDecimalPoint() {
@@ -120,6 +124,10 @@ static inline char getDecimalPoint() {
   return lc ? *(lc->decimal_point) : '\0';
 #endif
 }
+
+#if defined(__clang__)
+#pragma clang diagnostic pop
+#endif
 
 /// Converts a unicode code-point to UTF-8.
 static inline String codePointToUTF8(unsigned int cp) {
