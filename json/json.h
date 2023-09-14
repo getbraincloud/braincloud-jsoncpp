@@ -1507,7 +1507,7 @@ namespace Json {
 /** \brief Unserialize a <a HREF="http://www.json.org">JSON</a> document into a
  * Value.
  *
- * \deprecated Use CharReader and CharReaderBuilder.
+ * Use CharReader and CharReaderBuilder.
  */
 
 class JSON_API Reader {
@@ -1527,12 +1527,12 @@ public:
   };
 
   /** \brief Constructs a Reader allowing all features for parsing.
-    * \deprecated Use CharReader and CharReaderBuilder.
+    *  Use CharReader and CharReaderBuilder.
    */
   Reader();
 
   /** \brief Constructs a Reader allowing the specified feature set for parsing.
-    * \deprecated Use CharReader and CharReaderBuilder.
+    *  Use CharReader and CharReaderBuilder.
    */
   Reader(const Features& features);
 
@@ -2042,7 +2042,7 @@ public:
 };
 
 /** \brief Abstract class for writers.
- * \deprecated Use StreamWriter. (And really, this is an implementation detail.)
+ *  Use StreamWriter. (And really, this is an implementation detail.)
  */
 class JSON_API Writer {
 public:
