@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.name     = "BrainCloudJsonCpp"
   s.version  = "6.0.0"
-  s.summary  = "The open source JsonCpp library. Keeps the project header include folder structure and is updated for deployment targets."
+  s.summary  = "The open source JsonCpp library (Up to date with version 1.9.5). Keeps the project header include folder structure and is updated for deployment targets."
   s.homepage = "https://github.com/getbraincloud/braincloud-jsoncpp"
   
   s.ios.deployment_target      = "12.0"
