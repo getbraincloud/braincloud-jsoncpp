@@ -34,11 +34,12 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.header_dir              = "json"
-  s.source_files            = "**/*.{cpp,h}"
+  s.header_dir             = "json"
+  s.source_files           = "**/*.{cpp,h}"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.libraries               = 'c++'
+  s.libraries              = 'c++'
+  s.pod_target_xcconfig    = { 'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11' }
 
 end
