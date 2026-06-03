@@ -2,7 +2,7 @@
 #  BrainCloudJsonCpp.podspec
 #  BrainCloudJsonCpp
 #
-#  Copyright (c) 2016 BitHeads Inc. All rights reserved.
+#  Copyright (c) 2026 BitHeads Inc. All rights reserved.
 #
 
 Pod::Spec.new do |s|
@@ -10,14 +10,15 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name     = "BrainCloudJsonCpp"
-  s.version  = "1.2.1"
-  s.summary  = "The open source JsonCpp library (version 1.9.5). Keeps the project header include folder structure and is updated for deployment targets."
+  s.version  = "6.0.0"
+  s.summary  = "The open source JsonCpp library. Keeps the project header include folder structure and is updated for deployment targets."
   s.homepage = "https://github.com/getbraincloud/braincloud-jsoncpp"
   
-  s.ios.deployment_target  = "12.0"
-  s.osx.deployment_target  = "10.13"
-  s.tvos.deployment_target = "12.0"
-  s.watchos.deployment_target = "4.0"
+  s.ios.deployment_target      = "12.0"
+  s.osx.deployment_target      = "10.13"
+  s.tvos.deployment_target     = "12.0"
+  s.visionos.deployment_target = "1.0"
+  s.watchos.deployment_target  = "4.0"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
