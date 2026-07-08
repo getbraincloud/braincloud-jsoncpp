@@ -10,9 +10,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name     = "BrainCloudJsonCpp"
-
-  s.version  = "6.0.0"
-
+  s.version  = "6.0.1"
   s.summary  = "The open source JsonCpp library (Up to date with version 1.9.5). Included with brainCloud C++ and Objective-C libraries."
   s.homepage = "https://github.com/getbraincloud/braincloud-jsoncpp"
   
